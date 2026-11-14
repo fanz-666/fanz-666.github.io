@@ -1,0 +1,47 @@
+/* Personal additions to the upstream MIT theme; upstream CSS remains unchanged. */
+@font-face{font-family:"Space Grotesk";src:url("../assets/fonts/SpaceGrotesk-Variable.ttf") format("truetype");font-style:normal;font-weight:300 700;font-display:swap}
+[hidden]{display:none!important}
+html{scroll-behavior:smooth}
+.skip-link{position:fixed;top:-100px;left:16px;z-index:50;padding:10px;background:white}
+.skip-link:focus{top:8px}
+a:focus-visible,button:focus-visible{outline:2px solid #26589b;outline-offset:4px}
+.masthead__menu{min-width:0;flex:1}
+.masthead__inner-wrap{gap:9px}
+.language-toggle{flex-shrink:0;appearance:none;border:1px solid var(--c-border);border-radius:6px;background:#f3f6fb;color:var(--c-text);font:500 12px/1.5 "Space Grotesk",sans-serif;padding:3px 10px;margin-right:12px;cursor:pointer}
+.author__avatar img{display:block;aspect-ratio:1;object-fit:cover;object-position:50% 32%;height:auto;width:100%}
+.author__status{flex:1 1 100%;font-size:.85em;line-height:1.6;color:#476d96;border-left:2px solid #a6bddb;padding-left:8px;margin:.4em 0}
+.author__social-icons svg{display:block;width:21px;height:21px;fill:currentColor}
+.author__social-icons .wechat-button{appearance:none;padding:0;margin:0;background:none;border:0;color:inherit;opacity:.6;cursor:pointer;line-height:1}
+.author__social-icons .wechat-button:hover{opacity:1}
+.icon-cut{stroke:var(--bg);stroke-width:1.5;fill:none}
+circle.icon-cut{fill:var(--bg);stroke:none}
+svg.section-icon{width:18px;height:18px;fill:currentColor;display:inline-block;vertical-align:-2px}
+.contact-line{font-size:15px!important}
+.contact-line .highlight-red{font-style:italic}
+.inline-wechat{appearance:none;background:none;border:0;padding:0;color:#224b8d;font:inherit;cursor:pointer}
+.inline-wechat:hover{text-decoration:underline}
+.paper-box .paper-box-image>div{max-width:100%}
+.paper-box .paper-box-image img{max-width:100%;height:auto}
+.paper-links button{font-family:inherit;cursor:pointer}
+.publication-note{font-size:13px!important;font-weight:500}
+.honors-list em{display:inline-block;min-width:4.5em}
+.education-row{margin:0 0 12px;padding:0;line-height:1.75;font-weight:400}
+.education-row .education-date{font-size:inherit!important;font-weight:500;font-style:italic}
+.personal-footer{text-align:center;font-size:12px;margin-top:38px;padding-top:18px;color:#8290a0}
+.personal-footer p{font-size:12px!important;font-weight:500;margin:.5em 0}
+.template-credit{font-size:10px!important;opacity:.8}
+dialog{background:#fff;border:1px solid #b9cce5;border-radius:12px;padding:20px;color:#384b61;box-shadow:0 20px 90px #17385640;max-height:90vh;overflow:auto;margin:auto;font-weight:500;z-index:100}
+dialog::backdrop{background:#1b2e4b80;backdrop-filter:blur(4px)}
+.qr-dialog{width:370px;max-width:calc(100vw - 30px)}
+.qr-dialog>img{display:block;width:100%;height:auto}
+.qr-dialog>p{font-size:12px;text-align:center;margin-bottom:0}
+.dialog-heading{display:flex;justify-content:space-between;align-items:center;gap:20px;margin-bottom:14px}
+.dialog-heading h2{font-size:18px;margin:0;padding:0;border:0}
+.dialog-close{border:0;background:none;font-size:26px;line-height:1;color:#60738a;padding:0 4px;cursor:pointer}
+.bibtex-dialog{width:760px;max-width:calc(100vw - 30px)}
+.bibtex-dialog pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#f1f5fb;padding:15px;margin:0;font-size:12px}
+@media(min-width:925px) and (max-width:1024px){.sidebar{width:180px!important}.sidebar-spacer{width:180px!important}}
+@media(max-width:924px){.author__status{margin-top:.65em}.author__avatar img{width:76px;height:76px}.language-toggle{margin-right:6px;font-size:11px;padding:3px 8px}.site-nav__links{justify-content:flex-start}}
+@media(max-width:480px){.masthead__inner-wrap{padding-left:4px;padding-right:4px;gap:4px}.paper-box{padding-top:1em;padding-bottom:1em}.paper-box .paper-box-image img{width:100%}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.page__content{animation:none!important}*{transition:none!important}}
+@media print{.masthead,canvas,.author__social-icons,dialog{display:none!important}.sidebar{position:static!important}.paper-box,.education-row{break-inside:avoid}}

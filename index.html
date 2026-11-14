@@ -1,149 +1,126 @@
 <!doctype html>
-<html>
-
+<!-- Theme adapted from kiyotakali/kiyotakali.github.io. MIT license: LICENSE. -->
+<html lang="en" class="js">
 <head>
-<title>Fan Zhang</title>
-
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<meta name="keywords" content="Fan Zhang, Liaoning Technical University"> 
-<meta name="description" content="Fan's home page">
-<link rel="stylesheet" href="css/jemdoc.css" type="text/css" />
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-137722442-1', 'auto');
-  ga('send', 'pageview');
-</script>
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Fan Zhang (张藩), Liaoning Technical University. Stereo matching and multimodal learning; incoming PhD student at Dalian University of Technology in September 2027.">
+  <meta name="theme-color" content="#f3f5f8">
+  <meta property="og:title" content="Fan Zhang (张藩) - Homepage">
+  <meta property="og:description" content="Stereo matching, multimodal learning, unified and generative models, and vision–language–action.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://fanz-666.github.io/">
+  <meta property="og:image" content="https://fanz-666.github.io/assets/img/profile.png">
+  <link rel="canonical" href="https://fanz-666.github.io/">
+  <title>Fan Zhang (张藩) - Homepage</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/SpaceGrotesk-Variable.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/latest-components.css">
+  <link rel="stylesheet" href="css/home.css">
+  <script src="assets/js/custom-scripts.js" defer></script>
+  <script src="site.js" defer></script>
 </head>
-
-
 <body>
+  <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+  <div class="masthead">
+    <div class="masthead__inner-wrap">
+      <div class="masthead__menu">
+        <nav id="site-nav" class="site-nav" aria-label="Primary navigation" data-i18n-aria="navigation">
+          <ul class="site-nav__links">
+            <li><a href="#-about-me" class="site-nav__link" data-i18n="navAbout">About Me</a></li>
+            <li><a href="#-news" class="site-nav__link" data-i18n="navNews">News</a></li>
+            <li><a href="#-publications" class="site-nav__link" data-i18n="navPublications">Publications</a></li>
+            <li><a href="#-honors-and-awards" class="site-nav__link" data-i18n="navHonors">Honors and Awards</a></li>
+            <li><a href="#-education" class="site-nav__link" data-i18n="navEducation">Education</a></li>
+          </ul>
+        </nav>
+      </div>
+      <button class="language-toggle" type="button" aria-label="切换为中文" hidden>中文</button>
+    </div>
+  </div>
 
-<div id="layout-content" style="margin-top:25px">
+  <div id="main" role="main">
+    <aside class="sidebar sticky" aria-label="Profile" data-i18n-aria="profileLabel">
+      <div class="profile_box">
+        <div class="author__avatar"><a href="assets/img/profile.png" target="_blank" rel="noopener noreferrer"><img src="assets/img/profile.png" class="author__avatar" width="1086" height="1448" alt="Fan Zhang (张藩)" fetchpriority="high"></a></div>
+        <div class="author__content"><h3 class="author__name">Fan Zhang<br><span lang="zh-CN">(张藩)</span></h3><p class="author__bio" data-i18n="position">Master’s Student at Liaoning Technical University</p></div>
+        <p class="author__status" data-i18n="incoming">Incoming PhD Student at DUT · September 2027</p>
+        <p class="author__direction" data-i18n="sidebarTopics">Stereo Matching · Multimodal Learning · Unified & Generative Models · Vision–Language–Action</p>
+        <div class="author__social-icons">
+          <a href="mailto:lntu_zhangfan@163.com" title="Email" aria-label="Email Fan Zhang"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 5h20v14H2Z"/><path d="m3 6 9 7 9-7" class="icon-cut"/></svg></a>
+          <a href="https://scholar.google.com.hk/citations?view_op=list_works&amp;hl=zh-CN" title="Google Scholar" aria-label="Google Scholar" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m1 8 11-5 11 5-11 5ZM5 12l7 3 7-3v6c-4 3-10 3-14 0Z"/></svg></a>
+          <a href="https://github.com/fanz-666" title="GitHub" aria-label="GitHub" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .8a11.4 11.4 0 0 0-3.6 22.2c.6.1.8-.2.8-.6v-2.2c-3.3.7-4-1.4-4-1.4-.5-1.4-1.3-1.8-1.3-1.8-1.1-.8.1-.8.1-.8 1.2.1 1.9 1.2 1.9 1.2 1 1.8 2.7 1.3 3.4 1 .1-.8.4-1.3.7-1.6-2.7-.3-5.5-1.4-5.5-6a4.7 4.7 0 0 1 1.2-3.1c-.1-.3-.5-1.6.2-3.2 0 0 1-.3 3.3 1.2a11.2 11.2 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.7 1.6.3 2.9.2 3.2a4.7 4.7 0 0 1 1.2 3.1c0 4.6-2.8 5.7-5.5 6 .4.4.8 1.1.8 2.2v3.4c0 .4.2.7.8.6A11.4 11.4 0 0 0 12 .8Z"/></svg></a>
+          <button type="button" class="wechat-button" aria-label="WeChat QR code" title="WeChat" aria-haspopup="dialog"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 3C5 3 1 6 1 10c0 2 1 4 3 5l-1 3 4-2 3 1c5 0 9-3 9-7s-4-7-9-7Z"/><path d="M16 9c4 0 7 2.6 7 5.8 0 1.7-.8 3.2-2.3 4.3l.8 2.5-3.2-1.5-2.3.5c-4 0-7-2.6-7-5.8S12 9 16 9Z" stroke="var(--bg)" stroke-width="1.3"/><circle cx="7" cy="9" r="1" class="icon-cut"/><circle cx="12" cy="9" r="1" class="icon-cut"/><circle cx="14" cy="14" r=".8" class="icon-cut"/><circle cx="18" cy="14" r=".8" class="icon-cut"/></svg></button>
+        </div>
+      </div>
+    </aside>
 
-<img src="./assets/img/homepage.jpg" style="float:right; margin-top:30px; height: 200px; width: auto; border-radius: 6px;" />
-<table>
-	<tbody>
-		<tr>
-			<td width="75%">
-				<div id="toptitle">
-					<h1>Fan Zhang | 张藩 <h1>
-				</div>
+    <article class="page"><div class="page__inner-wrap"><div class="page__content">
+      <section aria-labelledby="-about-me">
+        <h1 id="-about-me"><svg class="section-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="7" r="4"/><path d="M4 21v-3a8 8 0 0 1 16 0v3Z"/></svg><span data-i18n="aboutTitle">About Me</span></h1>
+        <p><span data-i18n="introGreeting">Hi! I am </span><strong>Fan Zhang (张藩)</strong><span data-i18n="introCurrent">, a master’s student at Liaoning Technical University. </span><span data-i18n="introPhdPrefix">I expect to begin my </span><strong data-i18n="introPhdDegree">PhD at Dalian University of Technology</strong><span data-i18n="introPhdSuffix"> in September 2027.</span></p>
+        <p data-i18n="researchIntro">My research focuses on stereo matching and multimodal learning. Recently, I have also become interested in unified models, generative models, and vision–language–action (VLA):</p>
+        <ol class="research-focus-list" aria-label="Research interests">
+          <li><div><strong class="research-focus-title" data-i18n="stereoTitle">Stereo Matching</strong><span data-i18n="stereoText">Correspondence estimation and depth perception from stereo image pairs.</span></div></li>
+          <li><div><strong class="research-focus-title" data-i18n="multimodalTitle">Multimodal Learning</strong><span data-i18n="multimodalText">Learning from complementary information across different modalities.</span></div></li>
+          <li><div><strong class="research-focus-title" data-i18n="modelsTitle">Unified & Generative Models</strong><span data-i18n="modelsText">Exploring unified modeling and generative approaches to visual understanding.</span></div></li>
+          <li><div><strong class="research-focus-title" data-i18n="vlaTitle">Vision–Language–Action</strong><span data-i18n="vlaText">Interested in models that connect visual perception, language, and action.</span></div></li>
+        </ol>
+        <p class="contact-line">✨ <a class="highlight-red" href="mailto:lntu_zhangfan@163.com" data-i18n="contactInvitation">Feel free to reach out for research discussions.</a> <a href="mailto:lntu_zhangfan@163.com" data-i18n="emailLabel">Email</a> <span aria-hidden="true">/</span> <button class="inline-wechat wechat-button" type="button" aria-haspopup="dialog" data-i18n="wechatLabel">WeChat</button></p>
+      </section>
 
-                <h3>MA.Eng. Student</h3>
+      <section aria-labelledby="-news">
+        <h1 id="-news"><svg class="section-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 4h20v16H2Z"/><path d="M5 8h5v5H5ZM13 8h6M13 12h6M5 16h14" class="icon-cut"/></svg><span data-i18n="newsTitle">News</span></h1>
+        <div class="news-wrapper"><div class="news-content" id="newsContent"><ul>
+          <li><p><em>2026.10:</em> 🏆 <span data-i18n="newsNational">Awarded the National Scholarship.</span></p></li>
+          <li><p><em>2026.06:</em> 🎉 <strong>PGA-Stereo</strong> <span data-i18n="newsPaper">is published in IEEE Transactions on Circuits and Systems for Video Technology (TCSVT).</span></p></li>
+          <li><p><em>2025.10:</em> 🏆 <span data-i18n="newsNational">Awarded the National Scholarship.</span></p></li>
+          <li><p><em>2024.09:</em> 🎓 <span data-i18n="newsEntrance">Awarded the First-Class Postgraduate Entrance Scholarship.</span></p></li>
+        </ul></div><div class="news-toggle-container"><button class="seg-toggle-btn" id="newsToggleBtn" type="button" aria-expanded="false" aria-controls="newsContent"><span data-i18n="showMore">Show More</span><span aria-hidden="true">⌄</span></button></div></div>
+      </section>
 
-				<p>
-                    Liaoning Technical University (LNTU) </br>
-				</p>
-				<p >
-					<a href="assets/resume_zf.pdf">CV</a> &nbsp;/&nbsp;
-					<a href="https://scholar.google.com.hk/citations?view_op=list_works&hl=zh-CN">Scholar</a> &nbsp;/&nbsp;
-					<a href="https://github.com/fanz-666">Github</a>
-				  </p>
-			</td>
-		<tr>
-	</tbody>
-</table>
+      <section aria-labelledby="-publications">
+        <h1 id="-publications"><svg class="section-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M1 4c4-1 7 0 10 2v15c-3-2-6-3-10-2Zm22 0c-4-1-7 0-10 2v15c3-2 6-3 10-2Z"/></svg><span data-i18n="publicationsTitle">Publications</span></h1>
+        <div class="seg-control" id="pubFilter" role="group" aria-label="Publication filter"><div class="seg-indicator"></div><button class="seg-btn active" type="button" data-filter="all" data-i18n="allPublications">All</button><button class="seg-btn" type="button" data-filter="core" data-i18n="corePublications">Key Contributor</button></div>
+        <div class="paper-box" data-core="true">
+          <div class="paper-box-image"><div><span class="badge preprint">TCSVT</span><a href="assets/img/pga-stereo-framework.png" target="_blank" rel="noopener noreferrer"><img src="assets/img/pga-stereo-framework.png" alt="Overview of the PGA-Stereo framework" width="1200" height="600" loading="lazy"></a></div></div>
+          <div class="paper-box-text">
+            <p><a class="PaperTitle" href="https://doi.org/10.1109/TCSVT.2026.3701294" target="_blank" rel="noopener noreferrer"><b>PGA-Stereo: Robust Stereo Matching With Monocular Semantic Priors and Evidence-Guided Cost Modulation</b></a><br><span class="venue-card">TCSVT 2026</span><br>Di Jia, <strong><span class="author-highlight">Fan Zhang†</span></strong>, Chen Zhao, Yuqi Liu</p>
+            <div class="paper-links"><a class="paper-link paper-link--pdf" href="https://doi.org/10.1109/TCSVT.2026.3701294" target="_blank" rel="noopener noreferrer" data-i18n="paperLink">Paper</a><a class="paper-link paper-link--code" href="https://github.com/fanz-666/PGA-Stereo" target="_blank" rel="noopener noreferrer" data-i18n="codeLink">Code</a><button class="paper-link" type="button" id="bibtexButton" aria-haspopup="dialog">BibTeX</button></div>
+          </div>
+        </div>
+        <p class="publication-note" data-i18n="correspondingNote">† Corresponding author.</p>
+      </section>
 
-<h2>Short Bio</h2> 
+      <section aria-labelledby="-honors-and-awards">
+        <h1 id="-honors-and-awards"><svg class="section-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="6"/><path d="m6 13-2 9 8-3 8 3-2-9-6 3Z"/></svg><span data-i18n="honorsTitle">Honors and Awards</span></h1>
+        <ul class="honors-list"><li><p><em>2026.10</em> <strong data-i18n="nationalScholarship">National Scholarship</strong></p></li><li><p><em>2025.10</em> <strong data-i18n="nationalScholarship">National Scholarship</strong></p></li><li><p><em>2024.09</em> <strong data-i18n="entranceScholarship">First-Class Postgraduate Entrance Scholarship</strong></p></li></ul>
+      </section>
 
-<p>
-	I am a second-year MA.Eng. student at 
-	<a href="https://www.lntu.edu.cn/">Liaoning Technical University</a>, 
-	supervised by Prof. Di Ja</a>. 
-	Prior to that, I earned a bachelor's degree in Computer Science and Technology from <a href="https://www.lntu.edu.cn/">Liaoning Technical University</a>. 
-</p>
+      <section aria-labelledby="-education">
+        <h1 id="-education"><svg class="section-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m1 8 11-5 11 5-11 5ZM5 12l7 3 7-3v6c-4 3-10 3-14 0Z"/></svg><span data-i18n="educationTitle">Education</span></h1>
+        <ul class="education-list">
+          <li class="education-row upcoming"><em class="education-date" data-i18n="phdDate">2027.09 (expected)</em><span data-i18n="educationSeparator">: </span><strong data-i18n="dut">Dalian University of Technology</strong><span data-i18n="phdDegree"> · PhD studies (incoming).</span></li>
+          <li class="education-row"><em class="education-date" data-i18n="mastersDate">2024.09 – Present</em><span data-i18n="educationSeparator">: </span><strong data-i18n="lntu">Liaoning Technical University</strong><span data-i18n="mastersDegree"> · Master’s studies in Computer Science and Technology (admitted through recommendation).</span></li>
+          <li class="education-row"><em class="education-date" data-i18n="bachelorsDate">2020.09–2024.06</em><span data-i18n="educationSeparator">: </span><strong data-i18n="lntu">Liaoning Technical University</strong><span data-i18n="bachelorsDegree"> · Bachelor’s degree in Computer Science and Technology.</span></li>
+        </ul>
+      </section>
+      <footer class="personal-footer"><p data-i18n="lastUpdated">Last updated: November 2026</p><p>© <span id="year">2026</span> Fan Zhang (张藩)</p><p class="template-credit"><a href="https://github.com/kiyotakali/kiyotakali.github.io" target="_blank" rel="noopener noreferrer" data-i18n="templateCredit">Template adapted under the MIT license</a></p></footer>
+    </div></div></article>
+  </div>
 
-
-<h2>Publications</h2>
-<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-<!-- <tr onmouseout="smerf_stop()" onmouseover="smerf_start()">
-	<td style="padding:20px;width:20%;vertical-align:middle">
-	  <div class="one">
-		<div class="two" id='smerf_image'><video  width=100% muted autoplay loop>
-		<source src="./assets/img/EMM.mp4" type="video/mp4" style="box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);object-fit: cover; border-radius: 10px;">
-		Your browser does not support the video tag.
-		</video></div>
-		<img src='./assets/img/EMM.jpg' width=100% style="box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.4);border-radius: 10px;">
-	  </div>
-	  <script type="text/javascript">
-		function smerf_start() {
-		  document.getElementById('smerf_image').style.opacity = "1";
-		}
-
-		function smerf_stop() {
-		  document.getElementById('smerf_image').style.opacity = "0";
-		}
-		smerf_stop()
-	  </script>
-	</td>
-	<td style="padding:20px;width:80%;vertical-align:middle">
-		<span class="papertitle">Event-Based Motion Magnification</span>
-	  <br>
-	  <strong>Yutian Chen</strong>,
-	  <a href="https://scholar.google.com.hk/citations?user=5hsEmuQAAAAJ&hl=zh-CN">Shi Guo†</a>,
-	  <a href="">Fangzheng Yu</a>,
-	  <a href="">Feng Zhang</a>,
-	  <a href="https://www.gujinwei.org/">Jinwei Gu</a>,
-	  <a href="https://tianfan.info/">Tianfan Xue</a>
-	  
-	  <br>
-	  European Conference on Computer Vision (ECCV), 2024.
-	  <br>
-	  <a href="https://openimaginglab.github.io/emm/">project page</a>
-	  /
-	  <a href="https://youtu.be/WmI7bv9nqjI">video</a>
-	  /
-	  <a href="https://arxiv.org/pdf/2402.11957.pdf">paper</a>
-	  /
-	  <a href="https://github.com/OpenImagingLab/emm">code</a>
-	  <p></p>
-	  <p>
-		Detecting and magnifying imperceptible high-frequency motions in real-world scenarios with our RGB-event dual camera system.
-	  </p>		
-	</td>
-  </tr> -->
-<!--   <tr onmouseout="smerf_stop()" onmouseover="smerf_start()">
-	<td style="padding:20px;width:20%;vertical-align:middle">
-	  <div class="one">
-		
-		<img src='./assets/img/timelensxl.png' width=100% style="box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.4);border-radius: 10px;">
-	  </div>
-	</td>
-	<td style="padding:20px;width:80%;vertical-align:middle">
-		<span class="papertitle">TimeLens-XL: Real-time Event-based Video Frame Interpolation with Large Motion</span>
-	  <br>
-	  <a href="https://scholar.google.com/citations?user=JwQLEocAAAAJ&hl=en">Yongrui Ma</a>,	
-	  <a href="https://scholar.google.com.hk/citations?user=5hsEmuQAAAAJ&hl=zh-CN">Shi Guo</a>,
-	  <strong>Yutian Chen</strong>,
-	  <a href="https://tianfan.info/">Tianfan Xue</a>,
-	  <a href="https://www.gujinwei.org/">Jinwei Gu</a>
-	  
-	  
-	  <br>
-	  European Conference on Computer Vision (ECCV), 2024.
-	  <br>
-	  <a href="https://openimaginglab.github.io/TimeLens-XL/">project page</a>
-	  /
-	  <a href="https://youtu.be/HrfxliOQJSg?si=dzSd8CnfGmt9uGw7">video</a>
-	  /
-	  <a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/11208.pdf">paper</a>
-	  /
-	  <a href="https://github.com/OpenImagingLab/TimeLens-XL">code</a>
-
-	  <p></p>
-	  <p>
-		A real-time video frame interpolation method for large motion with a hybrid neuromorphic camera.
-	  </p>		
-	</td>
-  </tr> -->
-
- 
+  <dialog class="qr-dialog" id="wechatDialog" aria-labelledby="wechatTitle"><div class="dialog-heading"><h2 id="wechatTitle" data-i18n="wechatTitle">Connect on WeChat</h2><button type="button" class="dialog-close" data-close-dialog aria-label="Close">×</button></div><img src="assets/img/wechat.jpg" alt="Fan Zhang’s WeChat QR code" width="956" height="1285"><p data-i18n="wechatHint">Scan this QR code to add me on WeChat.</p></dialog>
+  <dialog class="bibtex-dialog" id="bibtexDialog" aria-labelledby="bibtexTitle"><div class="dialog-heading"><h2 id="bibtexTitle">BibTeX</h2><button type="button" class="dialog-close" data-close-dialog aria-label="Close">×</button></div><pre><code>@article{jia2026pga,
+  title   = {PGA-Stereo: Robust Stereo Matching With Monocular
+             Semantic Priors and Evidence-Guided Cost Modulation},
+  author  = {Jia, Di and Zhang, Fan and Zhao, Chen and Liu, Yuqi},
+  journal = {IEEE Transactions on Circuits and Systems for Video Technology},
+  year    = {2026},
+  volume  = {36},
+  number  = {10},
+  pages   = {14347--14360},
+  doi     = {10.1109/TCSVT.2026.3701294}
+}</code></pre></dialog>
 </body>
-
 </html>
